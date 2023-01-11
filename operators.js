@@ -1,4 +1,4 @@
-const isUserLoggedIn = true;
+const isUserLoggedIn = false;
 if (isUserLoggedIn) {
   alert("You are logged in!");
 } else {
@@ -30,3 +30,14 @@ console.log(num1 - num2);
 console.log(num1 * num2);
 console.log(num1 / num2);
 console.log(num1 % num2);
+
+let num3 = 50;
+num3 += 30; // num3 = num3 + 30
+
+let isUserSignedIn = false;
+const userAge = 18;
+const userName = "Vitaly";
+
+if ((userAge === 18 && userName == "Vitaly") || isUserLoggedIn) {
+  alert("Congrats! You are allowed to watch our content");
+}
